@@ -1,0 +1,17 @@
+   0 whoami
+   1 mkdir -p /home/animals/dogs/pluto/
+   2 mkdir -p /home/animals/cats/garfield/
+   3 mkdir -p /home/animals/fish/nemo/
+   4 mkdir -p /tmp/adam/
+   5 mkdir -p /home/humans/
+   6 cp /tmp/adam /home/humans/
+   7 mkdir -p /tmp/evA/
+   8 mv /tmp/evA /opt/eve/
+   9 mv /opt/eve /home/humans/
+  10 ls /home/humans
+  11 tree /home
+  12 mkdir -p /home/humans/adam/
+  13 ls /home/humans
+  14 tree /home
+  15 histoty > history.txt
+  16 history > history.txt

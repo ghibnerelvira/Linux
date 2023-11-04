@@ -1,0 +1,18 @@
+   0 whoami
+   1 touch output.txt
+   2 date > output.txt 
+   3 cat output.txt
+   4 df -h / >> output.txt
+   5 cat output.txt
+   6 history | tail -n 5 >> output.txt
+   7 cat output.txt
+   8 cat /proc/cpuinfo | grep 'vendor' | sort | uniq >> output.txt
+   9 cat output.txt
+  10 nano output.txt
+  11 cat output.txt
+  12 history > history.txt
+  13 mv output.txt output.txt.txt
+  14 history > output.txt
+  15 history
+  16 history > history.txt
+  17 history > history3.txt

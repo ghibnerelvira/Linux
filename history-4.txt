@@ -1,0 +1,24 @@
+   0 whoami
+   1 mkdir -p /toot/readme/.txt
+   2 echo "Первая строка\nВторая строка\nТретья строка" > /toot/readme.txt
+   3 mkdir -p /tmp/logs
+   4 touch /tmp/logs/test.log
+   5 cat /toot/readme.txt > /tmp/logs/test.log
+   6 mkdir -p /tmp/logs
+   7 touch /tmp/logs/test2.log
+   8 ls / > /tmp/logs/test2.log
+   9 mkdir -p /tmp/logs
+  10 cp /root/bench.py /tmp/logs/
+  11 tar -czvf /var/archive2.tar.gz -C /tmp logs
+  12 cat /tmp/logs/test.log
+  13 cat /tmp/logs/test2.log
+  14 ls / >> /tmp/logs/test2.log
+  15 cat /tmp/logs/test2.log
+  16 ls /tmp/logs/bench.py
+  17 ls /var/archive2.tar.gz
+  18 tar -xzvf /var/archive2.tar.gz -C /tmp/logs/
+  19 ls /tmp/logs/
+  20 export_file history5.txt
+  21 history
+  22 export_file history.txt
+  23 history > history.txt
